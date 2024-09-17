@@ -1,0 +1,72 @@
+/* Aplicar un estil general al cos de la pàgina */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilitzar el contenidor del formulari */
+form {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+/* Estilitzar les etiquetes */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Estilitzar els inputs i el select */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* Estilitzar el checkbox */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilitzar el botó d'enviar */
+button {
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+/* Estilitzar l'encapçalament */
+h1 {
+    text-align: center;
+    color: #00796b;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
